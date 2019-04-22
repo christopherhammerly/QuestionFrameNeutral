@@ -85,6 +85,8 @@ var items = [
 ["prepractice", "Form", {consentRequired: true, html: {include: "practice1.html"}}],
 ["prepractice", "Form", {consentRequired: true, html: {include: "practice2.html"}}],
 ["prepractice", "Form", {consentRequired: true, html: {include: "practice3.html"}}],
+["prepractice", "Form", {consentRequired: true, html: {include: "practice4.html"}}],
+["prepractice", "Form", {consentRequired: true, html: {include: "practice5.html"}}],
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
