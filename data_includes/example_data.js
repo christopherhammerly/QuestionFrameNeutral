@@ -58,7 +58,7 @@ function modifyRunningOrder(ro)
         {
             ro[i].push(new DynamicElement(
                 "Message",
-                {html: "<p>Please take a short break. As a reminder, 'F' = Grammatical and 'J' = Ungrammatical. Make sure to keep them straight! Press any button to continue when you're ready.</p>", transfer: "keypress"},
+                {html: "<p>Please take a short break. Remember, 'F' = grammatical and 'J' = ungrammatical. Make sure to keep them straight! Press any button to continue when you're ready</p>", transfer: "keypress"},
             true));
             ro[i].push(new DynamicElement(
                 "Separator",
