@@ -53,7 +53,7 @@ function modifyRunningOrder(ro)
     for (var i = 0; i < ro.length; ++i)
     {
         if (i % 12 == 10
-            && i > 13
+            && i > 25
             && i < 385)
         {
             ro[i].push(new DynamicElement(
